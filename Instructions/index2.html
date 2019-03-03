@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
   <title>Landing Page</title>
 
@@ -10,38 +11,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <div bgcolor = "cadetblue", <font size="24" color = "white"> Latitude </font></div>
+<body bgcolor='white'>
 
-  <div class="navbar">
-    <div class="dropdown">
-        <button class="dropbtn">Plots 
-          <i class="plots_down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="maxtemp.html" target="_blank">"Max Temp"/a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div> 
-      <a href="#home">Comparison</a>
-      <a href="#news">Data</a>
-    </div> 
 
-  <div class="col-md-8">
-    <font size="16" color="cadetblue"><strong>Summary: Latitude vs. X</strong></font>
-  </div>
+    <div class="card text-white style="width: 18rem;">
+      <div class="card-body" bgcolor = "cadetblue" >
+          <p class="card-text"> <font size="16" color = "blue"> Latitude </font></p>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <font size="16" color="cadetblue"><strong>Summary: Latitude vs. X</strong></font>
+    </div>
 
     <div class="col-md-4"></div>
       <font size="14" color="cadetblue"><strong>Visualizations</strong></font>
-    </div>
+  </div>
 
-  <div class="boxed"></div>
     <div class="col-md-8">
-      <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp Lg" align = "left" height="400" width="400" />
+        
+        
+        <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp Lg" align = "left" height="400" width="400" />
       <font size="6">
-        <p>  The purpose of this project was to analyze how weather changes 
+        <p> The purpose of this project was to analyze how weather changes 
             as you get closer to the equator. To accomplish this analysis, we
             first pulled data from the OpenWeatherMap API to assemble a 
             dataset on over 500 cities.
@@ -55,18 +47,17 @@
         </p>
       </font>
     </div>
-  </div>
-  <div class="box boxed">
-    <div class="col-md-4">
-     <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp" height="250" width="250" />
-     <img src="Resources\assets\images\Fig3.png" alt="Lat vs Cloudiness" height="250" width="250" />
-    </div>
 
-   <div class="col-md-4">
+  <div class="col-md-4">
+    <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp" height="250" width="250" />
+    <img src="Resources\assets\images\Fig3.png" alt="Lat vs Cloudiness" height="250" width="250" />
+  </div>
+
+  <div class="col-md-4">
     <img src="Resources\assets\images\Fig2.png" alt="Lat vs Humdity" height="250" width="250" />
     <img src="Resources\assets\images\Fig4.png" alt="Lat vs Wind Speed" height="250" width="250" />  
-   </div>
-  </div> 
+  </div>
+
 </body>
 
 </html>
