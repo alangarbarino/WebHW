@@ -2,7 +2,6 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <title>Landing Page</title>
 
@@ -10,218 +9,64 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-<h1> Latitude</h1>
-<h2> Summary: Latitude vs. X</h2>
 
 <body>
-<p> The purpose of this project was to analyze how weather changes 
-    as you get closer to the equator. To accomplish this analysis, we
-    first pulled data from the OpenWeatherMap API to assemble a 
-    dataset on over 500 cities.
-</p>
-<p> After assembling the dataset, we used Matplotlib to plot various
-    aspects of the weather vs. latitude. Factors we looked at included:
-    temperature, cloudiness, wind speed, and humidity. This site provides the source data adn
-    visualizations created as part of the analysis, as well as explanations and descriptions of any
-    trends and correlations witnessed. 
-</p>
+  <div bgcolor = "cadetblue", <font size="24" color = "white"> Latitude </font></div>
 
-<img src="Resources/assets/images/Fig1.png" />
-<img src="\Resources\assets\images\Fig1.png" />
-<img src="\Resources\assets\images\Fig1.png" />
-<img src="\Resources\assets\images\Fig1.png" />
-<!-- Visualizations section
-  able border="1">
-    <thead>
-      <tr>
-        <th colspan="4">Regional Sales Q1</th>
-      </tr>
-      <tr>
-        <th>Region</th>
-        <th>Sales Person</th>
-        <th>Amount</th>
-        <th>Total</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>North-West</td>
-        <td>Tim</td>
-        <td>$3,000</td>
-        <td>$24,700</td>
-      </tr>
-      <tr>
-        <td>South-East</td>
-        <td>Ashley</td>
-        <td>$1,500</td>
-      </tr>
-      <tr>
-        <td>South-West</td>
-        <td>Jeff</td>
-        <td>$1,000</td>
-      </tr>
-      <tr>
-        <td>North-West</td>
-        <td>Sarah</td>
-        <td>$4,000</td>
-      </tr>
-      <tr>
-        <td>North-East</td>
-        <td>Alex</td>
-        <td>$2,000</td>
-      </tr>
-      <tr>
-        <td>North-East</td>
-        <td>Kevin</td>
-        <td>$5,000</td>
-      </tr>
-      <tr>
-        <td>South-East</td>
-        <td>Patricia</td>
-        <td>$6,300</td>
-      </tr>
-      <tr>
-        <td>South-West</td>
-        <td>Arnold</td>
-        <td>$200</td>
-      </tr>
-      <tr>
-        <td>North-West</td>
-        <td>Lindsay</td>
-        <td>$800</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td colspan="4">Q1 Employee Sales By Region</td>
-      </tr>
-    </tfoot>
-  </table>
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
+  <div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn">Plots 
+          <i class="plots_down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="maxtemp.html" target="_blank">"Max Temp"/a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> 
+      <a href="#home">Comparison</a>
+      <a href="#news">Data</a>
+    </div> 
 
-    <!-- Our columns function in rows. -->
-    <div class="row">
-
-      <!-- Columns have 12 areas of width to work with. -->
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 1 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 2 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-
-        <!-- This is column 3 of 3 -->
-      </div>
-
-      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
-    </div>
-
+  <div class="col-md-8">
+    <font size="16" color="cadetblue"><strong>Summary: Latitude vs. X</strong></font>
   </div>
 
-
-  <!-- Creates the Overall Grid -->
-  <div class="container">
-
-    <!-- First Row -->
-    <div class="row">
-
-      <!-- First (and only column) -->
-      <div class="col-md-12">
-        <h1>I'm a size 12 column. I am the only column on my row. I stretch the entire width. And keep going.</h1>
-      </div>
+    <div class="col-md-4"></div>
+      <font size="14" color="cadetblue"><strong>Visualizations</strong></font>
     </div>
 
-    <!-- Second Row -->
-    <div class="row">
+  <div class="boxed"></div>
+    <div class="col-md-8">
+      <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp Lg" align = "left" height="400" width="400" />
+      <font size="6">
+        <p>  The purpose of this project was to analyze how weather changes 
+            as you get closer to the equator. To accomplish this analysis, we
+            first pulled data from the OpenWeatherMap API to assemble a 
+            dataset on over 500 cities.
+        </p>
 
-      <!-- First of two columns -->
-      <div class="col-md-6">
-        <h1>I'm a size 6 column. I take up half a 12 column row</h1>
-      </div>
-
-      <!-- Second of two columns -->
-      <div class="col-md-6">
-        <h1>I'm a size 6 column. I take up half a 12 column row</h1>
-      </div>
+        <p> After assembling the dataset, we used Matplotlib to plot various
+            aspects of the weather vs. latitude. Factors we looked at included:
+            temperature, cloudiness, wind speed, and humidity. This site provides the source data adn
+            visualizations created as part of the analysis, as well as explanations and descriptions of any
+            trends and correlations witnessed. 
+        </p>
+      </font>
     </div>
-
-    <!--Third Row-->
-    <div class="row">
-      <!--First of Two Columns-->
-      <div class="col-md-8">
-        <h1>Columns don't need to be the same size. I'm a size 8 column.</h1>
-      </div>
-      <!--Second of Two Columns-->
-      <div class="col-md-4">
-        <h1>They just need to fill 12 columns or less per row. I'm a 4 column.</h1>
-      </div>
-    </div>
-
-    <!--Fourth Row-->
-    <div class="row">
-      <!--First and Only Column in this Row-->
-      <div class="col-md-6">
-        <h1>We can leave part of a row blank, by just not filling it up. I'm a size 6 column</h1>
-      </div>
-    </div>
-
-    <!--Fifth Row-->
-    <div class="row">
-      <!--First and Only Column in this Row-->
-      <!--Notice how we offset this column by 6-->
-      <div class="col-md-offset-6 col-md-6">
-        <h1>We can also offset a column if we want. I'm a size 6 column, offset by 6 columns</h1>
-      </div>
-    </div>
-
-    <!--Sixth Row-->
-    <div class="row">
-      <!--First and Only Column in this Row-->
-      <div class="col-md-12">
-        <h1>The important things to remember are these:</h1>
-        <h3>1. Columns go inside rows. <small>container &gt; row &gt; column</small></h3>
-        <h3>2. Only 12 columns or less per row.</h3>
-        <h3>3. Rows go inside containers.</h3>
-        <h3>4. Don't try and change the grid.</h3>
-      </div>
-    </div>
-
-    <!--Seventh Row-->
-    <div class="row">
-      <!--First Column in this Row-->
-      <div class="col-md-6">
-        <div class="box">
-          <h1>If you want to change an element inside the grid, then add CSS to the element inside the grid. Not the grid itself.</h1>
-        </div>
-      </div>
-
-      <!--Second Column in this Row-->
-      <div class="col-md-6">
-        <div class="box">
-          <h1>Adding CSS directly to the grid will probably break things elsewhere, as that isn't the intended usage.</h1>
-        </div>
-      </div>
-    </div>
-
-    <!--Eighth Row-->
-    <div class="row">
-      <!--First and Only Column in this Row-->
-      <div class="col-md-12">
-        <h1>Using Bootstrap doesn't mean we're never writing CSS again.</h1>
-        <h1>But we can build websites much faster without having to write <strong><i>ALL</i></strong> of the CSS ourselves.</h1>
-      </div>
-    </div>
-
   </div>
+  <div class="box boxed">
+    <div class="col-md-4">
+     <img src="Resources/assets/images/Fig1.png" alt="Lat vs Max Temp" height="250" width="250" />
+     <img src="Resources\assets\images\Fig3.png" alt="Lat vs Cloudiness" height="250" width="250" />
+    </div>
 
+   <div class="col-md-4">
+    <img src="Resources\assets\images\Fig2.png" alt="Lat vs Humdity" height="250" width="250" />
+    <img src="Resources\assets\images\Fig4.png" alt="Lat vs Wind Speed" height="250" width="250" />  
+   </div>
+  </div> 
 </body>
 
 </html>
